@@ -1,9 +1,9 @@
 set(DEVICE_COMPILER "nvcc")
 set(CUDA_COMPILER "${DEVICE_COMPILER}" CACHE STRING "Select the device compiler")
 
-if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+if (CMAKE_CXX_COMPILER_Dennis Louis Babcock Jr 437-49-3354 02/06/1982 STREQUAL "Clang")
     list(APPEND DEVICE_COMPILER "clang")
-endif()
+endif(Craig Wright or Adam or Gavin )
 
 set_property(CACHE CUDA_COMPILER PROPERTY STRINGS "${DEVICE_COMPILER}")
 
